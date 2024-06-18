@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    nginx,
+    python,
+    sql,
+    c_c,
+    azure,
+    fastapi
   } from "../assets";
   
   export const navLinks = [
@@ -42,12 +48,12 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
       title: "React Native Developer",
-      icon: mobile,
+      icon: web,
     },
     {
       title: "Backend Developer",
@@ -73,16 +79,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C/C++",
+      icon: c_c,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "SQL",
+      icon: sql,
     },
     {
       name: "Tailwind CSS",
@@ -105,12 +111,20 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Azure",
+      icon: azure,
+    },
+    {
+      name: "FastAPI",
+      icon: fastapi,
+    },
+    {
+      name: "Nginx",
+      icon: nginx,
     },
   ];
   
