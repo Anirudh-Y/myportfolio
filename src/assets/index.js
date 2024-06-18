@@ -27,14 +27,14 @@ import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import fastapi from "./tech/fastapi.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import spider from "./company/spider.png";
+import interwiu from "./company/interwiu.png";
+import axis from "./company/axis.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import btp from "./btp.png";
 
 export {
   logo,
@@ -64,11 +64,11 @@ export {
   c_c,
   fastapi,
   azure,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  interwiu,
+  spider,
+  axis,
   carrent,
   jobit,
   tripguide,
+  btp,
 };

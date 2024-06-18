@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from "./components"
+import { lazy } from 'react';
+
+// const {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} = lazy(() => import('./components.js'));
 
 function App() {
 

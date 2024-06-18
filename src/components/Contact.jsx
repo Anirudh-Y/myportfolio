@@ -4,6 +4,7 @@ import { SectionWrapper } from "../hoc";
 import emailjs from "@emailjs/browser";
 
 import dotenv from "dotenv"
+import axios from "axios";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -33,18 +34,23 @@ const Contact = () => {
     });
   };
 
+
   const handleSubmit = (e) => {
+    // window.open('mailto:yadavanirudh2002@gmail.com');
     e.preventDefault();
+
+    // sendEmail(form.name, form.email,"Contact Message",form.message);
+    //  console.log(form);
     setLoading(true);
-     console.log(form);
-    emailjs.send("service_xjoqxi8",
+
+    emailjs.send("service_mh6imvm",
       "template_ku2njg8",
       {
         from_name: form.name,
         to_name:"Anirudh",
          from_email: form.email,
         message: form.message,
-      },"_wsgS_o_x1814qRXJ").then(
+      },"xqEGZPg2sjeHUlR7n").then(
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
